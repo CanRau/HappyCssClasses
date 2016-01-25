@@ -29,7 +29,7 @@ $bodyClasses->add(array('key1' => 'first-class', 'key2' => 'secondClass'));
 ```
 There are some dynamic classes build in which you can enable by just adding the key
 ```
-$bodyClasses->add("language") to add "lang-{langname}"
+$bodyClasses->add("language") to add "lang-{langname}" // You can enter a field name as second parameter, defaults to "name" if omitted
 $bodyClasses->add("template") = "template-{templatename}"
 $bodyClasses->add("published") = "published" / "unpublished"
 $bodyClasses->add("pageNum") = "page-1" for pages greater than 1 it also adds "not-first"
