@@ -84,7 +84,8 @@ class HappyCssClasses extends Wire implements Module {
 
 		// add some base classes
 		if (in_array($class, array('language', 'defaults'))) {
-			$this->classes['language'] = 'lang-'.$this->wire('user')->language->subtitle;
+			$key = is_null($key) ? 'name' : $key;
+			$this->classes['language'] = 'lang-'.$this->wire('user')->language->$key;
 			if ($class !== 'defaults') return;
 		}
 
