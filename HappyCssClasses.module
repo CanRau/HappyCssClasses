@@ -1,6 +1,6 @@
-<?php namespace ProcessWire;
+<?php
 /**
- * Happy Classes allow you to add css classes to e.g. the body element. It'll let you define classes per template or included file / module
+ * Happy CSS Classes allow you to add css classes to e.g. the body element. It'll let you define classes per template or included file / module
  * 
  * To add a body class
  * $bodyClasses->add("className");
