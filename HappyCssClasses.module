@@ -37,7 +37,6 @@ class HappyCssClasses extends Wire implements Module {
 			'title' => "Happy CSS Classes",
 			'summary' => 'Define CSS classes dynamically.',
 			'version' => 6,
- 			'requires' => 'ProcessWire>=300',
 			'href' => 'http://www.happygaia.com',
 			'author' => 'Can Rau',
 			'autoload' => true,
