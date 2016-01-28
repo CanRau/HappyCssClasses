@@ -1,4 +1,4 @@
-<?php
+<?php namespace ProcessWire;
 /**
  * Happy CSS Classes allow you to add css classes to e.g. the body element. It'll let you define classes per template or included file / module
  * 
@@ -37,6 +37,7 @@ class HappyCssClasses extends Wire implements Module {
 			'title' => "Happy CSS Classes",
 			'summary' => 'Define CSS classes dynamically.',
 			'version' => 6,
+			'requires' => 'ProcessWire>=300',
 			'href' => 'http://www.happygaia.com',
 			'author' => 'Can Rau',
 			'autoload' => true,
