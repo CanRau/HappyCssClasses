@@ -1,6 +1,7 @@
-HappyCssClasses [Processwire](https://www.processwire.com) module
-===================
+# HappyCssClasses [Processwire](https://www.processwire.com) module
 
+## [UNMAINTAINED]
+looking for a new maintainer
 
 [Forum topic in Processwire forums](https://processwire.com/talk/topic/12005-happyclasses-let-you-dynamically-addremove-bodyclasses-on-the-go/)
 
